@@ -1,10 +1,8 @@
-while True:
-    print("Enter to numbers and i will try to add them together :)")
-    x = input("First number: ")
-    y = input("Second number: ")
-    try:
-        addition = int(x) + int(y)
-        print("The addition is: " + str(addition))
-    except ValueError:
-        print("Value must be a number!")
-        print("\nEnter a number instead please!")
+print("Enter to numbers and i will try to add them together :)")
+x = input("First number: ")
+y = input("Second number: ")
+try:
+    addition = int(x) + int(y)
+    print("The addition is: " + str(addition))
+except ValueError:
+    print("\nEnter a number instead please!")
