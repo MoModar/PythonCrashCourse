@@ -1,6 +1,6 @@
 # TRY It YOURSELF
 # 11-1. City, Country:
-"""First file 'city_function.py"""
+"""First module 'city_function.py"""
 
 def get_formatted_name(city, country):
     """Generate neatly formatted City-country names"""
@@ -9,7 +9,7 @@ def get_formatted_name(city, country):
     return city_country
   
   
-  """Second file 'test_cities.py"""
+  """Second module 'test_cities.py"""
   
   import unittest
 from city_functions import get_formatted_name
