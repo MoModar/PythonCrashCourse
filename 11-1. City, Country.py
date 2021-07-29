@@ -11,7 +11,7 @@ def get_formatted_name(city, country):
   
   """Second module 'test_cities.py"""
   
-  import unittest
+import unittest
 from city_functions import get_formatted_name
 
 
