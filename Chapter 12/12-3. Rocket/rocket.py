@@ -23,7 +23,12 @@ class Rocket:
         self.moving_left = False
         self.moving_up = False
         self.moving_down = False
-
+        
+        # Here i ran into  following Error:
+        # AttributeError: 'pygame.Rect' object has no attribute 'down', 'up'
+        # It has been solved with changing the 'up' and 'down' to 'top' and 'bottom' PS: there is no up/down attributes in Pygame.Rect.
+        # Solution found at Stack_over_flow :https://stackoverflow.com/questions/50274201/attributeerror-pygame-rect-object-has-no-attribute-up-and-down
+        
     def update(self):
         """Update the rocket position based on movement flags."""
         # Update the ship's center value, not the rect.
